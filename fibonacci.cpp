@@ -11,5 +11,6 @@ int main() {
 	for(int i = 0; i < 60; i++) {
 		std::cout << fib[i] << std::endl;
 	}
+	// The numbers start to cycle between being negative and positive when approaching 2 billion. It happens because the number is out of bounds since it's too large.
 	return 0;
 }
