@@ -21,11 +21,11 @@ int main() {
 		std::cout << "Input value: ";
 		std::cin >> v;
 
-		if (i < 10) {
+		if (i < 10 && i > -1) {
 			myData[i] = v;
 		} else {
 			std::cout << std::endl << "Index out of range. Exit." << std::endl;
 		}
-	} while (i < 10);
+	} while (i < 10 && i > -1);
 	return 0;
 }
